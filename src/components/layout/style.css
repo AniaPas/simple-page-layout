@@ -29,6 +29,10 @@ body .header-layout {
   background-color: darkolivegreen;
 }
 
+body .header-layout:hover {
+  background-color: aqua;
+}
+
 body .sidebar-layout {
   width: 20vw;
   height: 80vh;
@@ -40,6 +44,10 @@ body .sidebar-layout {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-color: brown;
+}
+
+body .sidebar-layout:hover {
+  background-color: aqua;
 }
 
 body .main-layout {

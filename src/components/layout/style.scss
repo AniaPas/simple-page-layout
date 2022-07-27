@@ -17,6 +17,9 @@
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: darkolivegreen;
+    &:hover {
+      background-color: aqua;
+    }
       
     }
         .sidebar-layout {
@@ -27,8 +30,10 @@
     grid-column: 1/2; 
     grid-row: 2/3;
     background-color: brown;
-
-        }
+          &:hover{
+            background-color: aqua;
+          }
+      }
       
         .main-layout {
           width: 55vw;

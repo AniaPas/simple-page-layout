@@ -34,9 +34,13 @@
 }
 
 .main .topmain .topmain--box {
-  background-color: darkorange;
+  background-color: #94590c;
   height: 15vh;
   width: 7vw;
+}
+
+.main .topmain .topmain--box:hover {
+  background-color: aqua;
 }
 
 .main .main--posts {

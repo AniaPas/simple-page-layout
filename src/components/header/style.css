@@ -1,25 +1,45 @@
+@-webkit-keyframes boxElementAni {
+  from {
+    margin-bottom: 0px;
+  }
+  to {
+    margin-bottom: 10px;
+    background: yellow;
+  }
+}
+
+@keyframes boxElementAni {
+  from {
+    margin-bottom: 0px;
+  }
+  to {
+    margin-bottom: 10px;
+    background: yellow;
+  }
+}
+
 .header {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20vw auto 20vw;
-      grid-template-columns: 20vw auto 20vw;
+  -ms-grid-columns: 10vw 20vw auto 20vw 3vw;
+      grid-template-columns: 10vw 20vw auto 20vw 3vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .header .header--input {
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   -ms-grid-column-span: 1;
-  grid-column: 1/2;
+  grid-column: 2/3;
   border: 0;
   border-radius: 0;
 }
 
 .header .header-box {
-  -ms-grid-column: 3;
+  -ms-grid-column: 4;
   -ms-grid-column-span: 1;
-  grid-column: 3/4;
+  grid-column: 4/5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,5 +63,10 @@
   height: 30px;
   background-color: beige;
   border: 1px solid black;
+}
+
+.header .header-box .header--box--element:hover {
+  -webkit-animation: boxElementAni 0.5s;
+          animation: boxElementAni 0.5s;
 }
 /*# sourceMappingURL=style.css.map */
