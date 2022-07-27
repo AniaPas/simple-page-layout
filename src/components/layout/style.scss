@@ -1,0 +1,40 @@
+* {
+    margin: 0 0 0 0;
+  }
+  
+  body {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 30vw 50vw 20vw;
+    grid-template-rows:  10.5vh auto;
+    justify-content: center;
+    
+        .header-layout {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: darkolivegreen;
+        }
+        .sidebar-layout {
+    //position: fixed;
+    width: 20vw;
+    height: 80vh;
+    margin: 3vh 0 0 2vw;
+    grid-column: 1/2; 
+    grid-row: 2/3;
+    background-color: brown;
+
+        }
+      
+        .main-layout {
+          width: 55vw;
+          height: 100vh;
+          grid-column: 2/3;
+          grid-row: 2/3;
+          margin: 3vh 0 0 0;
+          background-color: rgb(182, 195, 47);
+
+        }
+  }

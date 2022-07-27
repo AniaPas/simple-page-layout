@@ -1,0 +1,31 @@
+.sidebar {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 5vh;
+
+    /*::before {
+    
+        content: "";
+        position: absolute;
+        width: 18vw;
+        height:2px;
+        background-color: rgb(0, 0, 0);
+        
+    }*/
+    .sidebar--sidebar {
+       
+        background-color: darkolivegreen;
+        width: 15vw;
+        height: 8vh;
+            .sidebar__box {
+                
+                margin-top: 50px;
+
+
+            } 
+    }
+}

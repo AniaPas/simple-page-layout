@@ -1,0 +1,56 @@
+* {
+  margin: 0 0 0 0;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  -ms-grid-columns: 30vw 50vw 20vw;
+      grid-template-columns: 30vw 50vw 20vw;
+  -ms-grid-rows: 10.5vh auto;
+      grid-template-rows: 10.5vh auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .header-layout {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-color: darkolivegreen;
+}
+
+body .sidebar-layout {
+  width: 20vw;
+  height: 80vh;
+  margin: 3vh 0 0 2vw;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-color: brown;
+}
+
+body .main-layout {
+  width: 55vw;
+  height: 100vh;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  margin: 3vh 0 0 0;
+  background-color: #b6c32f;
+}
+/*# sourceMappingURL=style.css.map */

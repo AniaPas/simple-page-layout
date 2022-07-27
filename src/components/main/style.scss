@@ -1,0 +1,28 @@
+@import './mixins';
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    
+    .topmain {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        background-color: rgb(30, 135, 30);
+        height: 20vh;
+        width: 55vw;
+        .topmain--box {
+            background-color: darkorange;
+            height: 15vh;
+            width: 7vw;
+
+        }
+    
+    }
+    .main--posts{
+        @include main--posts;
+    }
+}
