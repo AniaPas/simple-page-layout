@@ -10,13 +10,15 @@
     justify-content: center;
     
         .header-layout {
+    z-index: 5;
     position: fixed;
     width: 100vw;
     height: 10vh;
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: darkolivegreen;
-        }
+      
+    }
         .sidebar-layout {
     //position: fixed;
     width: 20vw;
