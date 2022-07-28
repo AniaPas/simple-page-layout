@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url("srcontsUbuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=style.css.map */

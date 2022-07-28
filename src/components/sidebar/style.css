@@ -31,6 +31,7 @@
 }
 
 .sidebar .sidebar--title {
+  font-family: 'Ubuntu-Regular';
   -ms-flex-item-align: start;
       align-self: flex-start;
   display: inline-block;
