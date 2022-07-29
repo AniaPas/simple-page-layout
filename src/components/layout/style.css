@@ -13,6 +13,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #d8d7d7;
 }
 
 body .header-layout {
@@ -26,11 +27,6 @@ body .header-layout {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-color: darkolivegreen;
-}
-
-body .header-layout:hover {
-  background-color: aqua;
 }
 
 body .sidebar-layout {
@@ -43,11 +39,6 @@ body .sidebar-layout {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-color: brown;
-}
-
-body .sidebar-layout:hover {
-  background-color: aqua;
 }
 
 body .main-layout {
@@ -60,6 +51,5 @@ body .main-layout {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   margin: 3vh 0 0 0;
-  background-color: #b6c32f;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,25 @@
+@-webkit-keyframes hoverAnim {
+  0% {
+    background: #bebebe;
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background: #d8d7d7;
+  }
+}
+
+@keyframes hoverAnim {
+  0% {
+    background: #bebebe;
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background: #d8d7d7;
+  }
+}
+
 .sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,22 +38,29 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-bottom: 5vh;
+  background-color: #07575e;
 }
 
 .sidebar .sidebar--sidebar {
-  background-color: darkolivegreen;
+  background-color: #bebebe;
   width: 15vw;
   height: 8vh;
+}
+
+.sidebar .sidebar--sidebar:hover {
+  -webkit-animation: hoverAnim  1s ease-in-out;
+          animation: hoverAnim  1s ease-in-out;
 }
 
 .sidebar .sidebar--divider {
   width: 18vw;
   height: 2px;
-  background-color: black;
+  background-color: white;
 }
 
 .sidebar .sidebar--title {
-  font-family: 'Ubuntu-Regular';
+  font-family: 'Ubuntu';
+  color: white;
   -ms-flex-item-align: start;
       align-self: flex-start;
   display: inline-block;

@@ -3,13 +3,10 @@
 width: 50vw;
 height: 15vh;
 background-color: $gray;
-    &:hover {
-        animation: hoverAnim  1s ease-in-out;
-    }
 }
 @keyframes hoverAnim {
     0% {
-    background: $lightgray; 
+    background: $lightgray;
     }
  
     to {

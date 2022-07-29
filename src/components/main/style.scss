@@ -1,26 +1,29 @@
 @import './mixins';
+@import './tokens';
 .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     justify-items: center;
     align-items: center;
+    background-color: $almostwhite;
     
     .topmain {
         display: flex;
         flex-direction: row;
         justify-content:space-around;
         align-items: center;
-        background-color: rgb(30, 135, 30);
+        background-color: $darkblue;
         height: 20vh;
         width: 55vw;
         .topmain--box {
-            background-color: rgb(148, 89, 12);
+            background-color: $lightgray;
             height: 15vh;
             width: 7vw;
+            border-radius: 4px;
             &:hover {
-                background-color: aqua;
-              }
+                @include hover;
+              } 
         }
     
     }
